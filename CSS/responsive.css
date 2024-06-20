@@ -1,0 +1,119 @@
+@media screen and (max-width: 600px) {
+	.section__action__btn {
+		max-width: 30rem;
+		padding: 1.5rem;
+		flex-basis: 40%;
+	}
+
+	.CT_IMG{
+		left: 10%;
+		width: 80vw;
+		height: auto;
+	}
+	.section__action__container{
+		display: flex;
+		flex-direction: column;
+	}
+	.section__action__container a{
+		align-self: center;
+		width: 100%;
+	}
+	.footer-links{
+		display: flex;
+		flex-direction: column;	
+	}
+
+	.footer-links li a{
+		padding: 5px;
+	}
+	.con{
+		display: none;
+		background-color: pink;
+	}
+	.line1{
+		padding: 2px 25px;
+	}
+
+	.section.S {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Mobile-v2.jpg");
+}
+
+.section.PW {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Mobile.jpg");
+}
+
+.section.CT {
+	background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Mobile.jpg");
+}
+
+.section.Y {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Mobile-Global.jpg");
+}
+
+.section.three {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Mobile-LHD-v2.jpg");
+}
+
+.section.X {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Mobile-v2.jpg");
+}
+
+.section.SP {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Mobile.jpg");
+}
+
+.section.SR {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_2100,w_800,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Mobile");
+}
+
+.section.A {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Mobile-NA-APAC.jpg");
+}
+}
+
+@media screen and (min-width: 900px) {
+	.section__action__container {
+		width: 70%;
+	}
+
+	.footer ul {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.header__nav__btn {
+		display: inline-block;
+	}
+
+	.header__left {
+		padding: 0 2rem;
+		margin: 0 3rem;
+	}
+
+	.header__right {
+		margin: auto 2rem;
+	}
+
+	.link__in__middle {
+		display: none;
+	}
+
+	.section__action__container {
+		width: 60%;
+	}
+
+	.footer ul {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.footer ul {
+		width: 40%;
+	}
+
+	.section__action__container {
+		width: 50%;
+	}
+}

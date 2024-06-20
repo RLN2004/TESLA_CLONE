@@ -1,0 +1,144 @@
+.section {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.section.S {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
+}
+
+.section.PW {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg");
+}
+
+.section.CT {
+	background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg");
+}
+
+.section.Y {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
+}
+
+.section.three {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg");
+}
+
+.section.X {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg");
+}
+
+.section.SP {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop");
+}
+
+.section.SR {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global");
+}
+
+.section.A {
+	background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg");
+}
+
+.section__content {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--primary-color);
+}
+
+.section__content__title {
+	font-size: 3.7rem;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.section__content__subtitle {
+	font-size: 2.2rem;
+	font-weight: 500;
+}
+
+p{
+	margin-top: 10px;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+.section__action__container {
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section__action__btn {
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding: 20px;
+	border-radius: 5px;
+	flex-basis: 20%;
+	margin-bottom: 1rem;
+	text-transform: capitalize;
+}
+
+.action__btn__primary {
+	background: rgb(255, 255, 255);
+	color: var(--primary-color);
+}
+
+.action__btn__secondary {
+	background: rgb(23, 26, 42);
+	color: white;
+}
+
+.vella{
+		color: white;
+}
+
+.CT_IMG{
+	filter: brightness(0);
+	position: absolute;	
+	margin-top: 5px;
+	left: 31%;
+}
+
+.grey{
+	background-color: black;
+	color: grey;
+	border-top: 5px solid grey;
+	border-radius: 0;
+	font-weight: 900;
+}
+
+.grey-2{
+	background-color: black;
+	color: grey;
+	border-radius: 0;
+	font-weight: 900;
+}
+
+.SP_D{
+	color: white;
+	border-bottom: 1px solid white;
+	font-size: 13px;
+}
+
+.SP_D:HOVER{
+	border-bottom: 2px solid white;
+}
+
+.kutty{
+	font-size: 1.3rem;
+}
